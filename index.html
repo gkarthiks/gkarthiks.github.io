@@ -2,8 +2,15 @@
 <html>
   <head>
     <title>wait for it.</title>
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("/docs/body.html"); 
+    });
+    </script> 
   </head>
   <body>
     <p>wait for it, I am coming soon!!!.</p>
+    <div id="includedContent"></div>
   </body>
 </html>
