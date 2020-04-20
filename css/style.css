@@ -467,6 +467,34 @@ ol.type li a:hover {
 	text-align: center;
 	background: #fff;
 }
+
+.timeline>li .volunteer-image {
+	z-index: 100;
+	position: absolute;
+	left: 600px;
+	width: 70px;
+	height: 70px;
+	margin-left: 0;
+	/* border: 1px solid #eee; */
+	border-radius: 100%;
+	/* text-align: center; */
+	/* background: #fff; */
+}
+
+.timeline>li .volunteer-image-inverted {
+	z-index: 100;
+	position: absolute;
+	left: 450px;
+	width: 70px;
+	height: 70px;
+	margin-left: 0;
+	/* border: 1px solid #eee; */
+	border-radius: 100%;
+	/* text-align: center; */
+	/* background: #fff; */
+}
+
+
 .timeline>li .timeline-image h4 {
 	margin-top: 20px;
 	font-size: 14px;
